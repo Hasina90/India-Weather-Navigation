@@ -11,7 +11,8 @@ app = FastAPI()
 with open("C:/Users/Lenovo/Desktop/weather/data/india_data.json", "r") as f:
     india_data = json.load(f)
 
-# Initialize templates and static files for the HTML frontend
+# Initialize template
+#s and static files for the HTML frontend
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
