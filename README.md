@@ -43,7 +43,7 @@ Copy
 Edit
 python -m venv env
 env\Scripts\activate  # For Windows
-# or
+
 source env/bin/activate  # For macOS/Linux
 
 3.Install required packages:
